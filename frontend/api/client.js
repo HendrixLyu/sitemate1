@@ -44,7 +44,7 @@ async function deleteIssue(id) {
     console.log('Deleted issue:', data);
 }
 
-// Example usage
+// Example about some data schema ...
 createIssue({ id: 3, title: 'Issue 3', description: 'Description for issue 3' });
 readIssue(1);
 updateIssue(2, { title: 'Updated Issue 2' });
